@@ -1,0 +1,130 @@
+.header {
+    margin-top: 20px;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logoo {
+        max-width: 113px;
+        margin-left: 30px;
+    }
+
+    &__input {
+        cursor: pointer;
+        width: 839px;
+        box-sizing: border-box;
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url(./img/search-icon.png);
+        background-position: 20px 10px;
+        background-repeat: no-repeat;
+        padding: 15px 0px 15px 60px;
+        color: var(--text-color, #414141);
+        color: #E6E6E6;
+        font-size: 14px;
+        font-family: Roboto;
+        margin-right: 39px;
+        margin-left: 39px;
+    }
+
+    &__imgg {
+        max-width: 112px;
+    }
+
+    &__menu {
+        max-width: 1150px;
+        margin-left: 25px;
+        padding: 25px 36px 25px 36px;
+        margin-top: 20px;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    }
+
+    &__list {
+        color: var(--text-color, #414141);
+        font-size: 16px;
+        font-family: Roboto;
+    }
+
+    &__imgs {
+        max-width: 30px;
+        height: 22px;
+        margin-right: 10px;
+        margin-left: 40px;
+    }
+
+    &__activ {
+        margin-right: 30px;
+        margin-left: 30px;
+        color: #D74444;
+        font-size: 16px;
+        font-family: Roboto;
+    }
+
+    &__imgss {
+        max-width: 2px;
+        height: 14px;
+        cursor: pointer;
+    }
+
+    &__body {
+        width: 1140px;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-image: url(./img/1785\ 1.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__bodytitle {
+        margin-left: 120px;
+    }
+
+    &__title {
+        max-width: 216px;
+        padding-top: 100px;
+        color: #3C3C3C;
+        font-size: 50px;
+        font-family: Playfair Display;
+        font-weight: 700;
+        line-height: 105.3%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        margin-bottom: 20px;
+        color: #343434;
+        font-size: 16px;
+        font-family: Roboto Condensed;
+        line-height: 140.8%;
+        letter-spacing: 0.32px;
+    }
+
+    &__btn {
+        padding: 14px 25px;
+        border: 0;
+        cursor: pointer;
+        margin-bottom: 251px;
+        color: var(--text-color, #414141);
+        font-size: 12px;
+        font-family: Roboto Condensed;
+        font-weight: 700;
+        line-height: 140.8%;
+        letter-spacing: 0.48px;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    }
+
+    &__img {
+        position: relative;
+        right: 95px;
+        max-width: 1090px;
+    }
+}

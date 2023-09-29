@@ -1,0 +1,219 @@
+.divan {
+    margin-top: 30px;
+
+    &__card {
+        display: flex;
+    }
+
+    &__title {
+        display: flex;
+    }
+
+    &__title h1 {
+        margin-right: 5px;
+        color: #969696;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__title p {
+        margin-right: 5px;
+        color: #575757;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__img {
+        margin-top: 80px;
+        max-width: 599px;
+        height: 249px;
+    }
+&__input{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    outline: none;
+}
+
+    &__imgs {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    &__imgg {
+        margin-right: 30px;
+        margin-top: 84px;
+        max-width: 6px;
+        height: 12px;
+    }
+
+    &__imgss {
+        margin-right: 30px;
+        margin-top: 68px;
+        max-width: 104px;
+        height: 42px;
+    }
+
+    &__rowimg {
+        margin-top: 28px;
+        margin-bottom: 15px;
+        max-width: 87px;
+    }
+
+    &__rowtitle {
+        margin-bottom: 10px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__rowtitlee {
+        color: #686868;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__row1 {
+        margin-left: 30px;
+    }
+
+    &__sum {
+        display: flex;
+    }
+
+    &__sum h1 {
+        margin-right: 30px;
+        margin-top: 19px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__sum button {
+        margin-right: 20px;
+        margin-top: 15px;
+        padding: 13px 50px;
+        cursor: pointer;
+        border: 0;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: var(--main-color, #245462);
+    }
+
+    &__sum img {
+        margin-right: 10px;
+        margin-top: 27px;
+        max-width: 17px;
+        height: 15px;
+    }
+
+    &__sum h2 {
+        margin-top: 28px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__rang {
+        display: flex;
+    }
+
+    &__rang h1 {
+        margin-top: 18px;
+        margin-right: 45px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__rang1 {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    &__imgee {
+        margin-right: 12px;
+        max-width: 30px;
+    }
+
+    &__imge {
+        max-width: 6px;
+        height: 3px;
+        cursor: pointer;
+    }
+
+    &__rang1 h1 {
+        margin-right: 12px;
+        margin-left: 25px;
+        padding: 7px 11px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    }
+
+    &__rang1 h2 {
+        margin-right: 10px;
+        margin-left: 66px;
+        padding: 7px 10px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background: #FFF;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+    }
+
+    &__rowtext {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__text {
+        max-width: 456px;
+        color: #686868;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 148.688%;
+    }
+}

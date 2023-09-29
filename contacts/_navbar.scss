@@ -1,0 +1,104 @@
+.navbar {
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 56px;
+    }
+
+
+
+    &__menuu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__lest {
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 30px;
+    }
+
+    &__listt a {
+        width: 151px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__list p {
+        color: #414141;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: relative;
+        bottom: 18px;
+        left: 17px;
+
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__menu li {
+        height: 10px;
+        max-width: 65px;
+        color: var(--text-color, #414141);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 10px 25px;
+    }
+
+    &__img {
+        margin-right: 10px;
+        max-width: 22px;
+        height: 20px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logoo {
+        max-width: 113px;
+    }
+
+    &__input {
+        cursor: pointer;
+        width: 280px;
+        box-sizing: border-box;
+        border: 1px solid #E6E6E6;
+        border: 0;
+        font-size: 16px;
+        background: #F9F9F9;
+        background-image: url(./img/search-icon.png);
+        background-position: 20px 10px;
+        background-repeat: no-repeat;
+        padding: 15px 0px 15px 60px;
+        color: var(--text-color, #414141);
+        color: #E6E6E6;
+        font-size: 14px;
+        font-family: Roboto;
+        outline: none;
+    }
+
+    &__imgg {
+        max-width: 112px;
+    }
+}

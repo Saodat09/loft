@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+}
+.navbar__menuu {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__lest {
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 30px;
+}
+.navbar__listt a {
+  width: 151px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.navbar__list p {
+  color: #414141;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 18px;
+  left: 17px;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__menu li {
+  height: 10px;
+  max-width: 65px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 25px;
+}
+.navbar__img {
+  margin-right: 10px;
+  max-width: 22px;
+  height: 20px;
+}
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+.navbar__logoo {
+  max-width: 113px;
+}
+.navbar__input {
+  cursor: pointer;
+  width: 280px;
+  box-sizing: border-box;
+  border: 1px solid #E6E6E6;
+  border: 0;
+  font-size: 16px;
+  background: #F9F9F9;
+  background-image: url(./img/search-icon.png);
+  background-position: 20px 10px;
+  background-repeat: no-repeat;
+  padding: 15px 0px 15px 60px;
+  color: var(--text-color, #414141);
+  color: #E6E6E6;
+  font-size: 14px;
+  font-family: Roboto;
+  outline: none;
+}
+.navbar__imgg {
+  max-width: 112px;
+}
+
+.header__menu {
+  max-width: 1150px;
+  margin-left: 25px;
+  padding: 25px 36px 25px 36px;
+  margin-top: 50px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.header__list {
+  color: var(--text-color, #414141);
+  font-size: 16px;
+  font-family: Roboto;
+}
+.header__imgs {
+  max-width: 30px;
+  height: 22px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.header__activ {
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #D74444;
+  font-size: 16px;
+  font-family: Roboto;
+}
+.header__imgss {
+  max-width: 2px;
+  height: 14px;
+  cursor: pointer;
+}
+
+.divan {
+  margin-top: 30px;
+}
+.divan__card {
+  display: flex;
+}
+.divan__title {
+  display: flex;
+}
+.divan__title h1 {
+  margin-right: 5px;
+  color: #969696;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divan__title p {
+  margin-right: 5px;
+  color: #575757;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divan__img {
+  margin-top: 80px;
+  max-width: 599px;
+  height: 249px;
+}
+.divan__imgs {
+  display: flex;
+  margin-bottom: 20px;
+}
+.divan__imgg {
+  margin-right: 30px;
+  margin-top: 84px;
+  max-width: 6px;
+  height: 12px;
+}
+.divan__imgss {
+  margin-right: 30px;
+  margin-top: 68px;
+  max-width: 104px;
+  height: 42px;
+}
+.divan__rowimg {
+  margin-top: 28px;
+  margin-bottom: 15px;
+  max-width: 87px;
+}
+.divan__rowtitle {
+  margin-bottom: 10px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.divan__rowtitlee {
+  color: #686868;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divan__row1 {
+  margin-left: 30px;
+}
+.divan__sum {
+  display: flex;
+}
+.divan__sum h1 {
+  margin-right: 30px;
+  margin-top: 19px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.divan__sum button {
+  margin-right: 20px;
+  margin-top: 15px;
+  padding: 13px 50px;
+  cursor: pointer;
+  border: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: var(--main-color, #245462);
+}
+.divan__sum img {
+  margin-right: 10px;
+  margin-top: 27px;
+  max-width: 17px;
+  height: 15px;
+}
+.divan__sum h2 {
+  margin-top: 28px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divan__rang {
+  display: flex;
+}
+.divan__rang h1 {
+  margin-top: 18px;
+  margin-right: 45px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divan__rang1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.divan__imgee {
+  margin-right: 12px;
+  max-width: 30px;
+}
+.divan__imge {
+  max-width: 6px;
+  height: 3px;
+  cursor: pointer;
+}
+.divan__rang1 h1 {
+  margin-right: 12px;
+  margin-left: 25px;
+  padding: 7px 11px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.divan__rang1 h2 {
+  margin-right: 10px;
+  margin-left: 66px;
+  padding: 7px 10px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.07);
+}
+.divan__rowtext {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color, #414141);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.divan__text {
+  max-width: 456px;
+  color: #686868;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148.688%;
+}/*# sourceMappingURL=tovar.css.map */
